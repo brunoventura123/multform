@@ -9,13 +9,6 @@ export const FormStep4 = () => {
     const {state,dispatch} = useForm()
 
     useEffect(()=>{
-        dispatch({
-            type: FormActions.setCurrentStep,
-            payload:4
-        })
-    },[])
-
-    useEffect(()=>{
         if(state.name === '' || state.email === '' || state.github === ''){
             history.push('/')
         } else {
@@ -24,7 +17,6 @@ export const FormStep4 = () => {
                 payload: 4
             })
         }
-       
     },[])
 
     return(
