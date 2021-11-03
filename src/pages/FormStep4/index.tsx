@@ -2,8 +2,10 @@ import { useEffect } from 'react'
 import { Theme } from '../../components/Theme'
 import { useForm, FormActions } from '../../contexts/FormContext'
 import * as C from './styles'
+import { useHistory } from 'react-router'
 
 export const FormStep4 = () => {
+    let history = useHistory()
     const {state,dispatch} = useForm()
 
     useEffect(()=>{
@@ -11,6 +13,18 @@ export const FormStep4 = () => {
             type: FormActions.setCurrentStep,
             payload:4
         })
+    },[])
+
+    useEffect(()=>{
+        if(state.name === '' || state.email === '' || state.github === ''){
+            history.push('/')
+        } else {
+            dispatch({
+                type: FormActions.setCurrentStep,
+                payload: 4
+            })
+        }
+       
     },[])
 
     return(
