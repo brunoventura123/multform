@@ -30,8 +30,8 @@ export const FormStep4 = () => {
     return(
         <Theme>
             <C.Container>
-                <h2>😁Cadastro finalizado!🤗</h2>
-                <h1>Agora é só aguardar seu emprego.</h1>
+                <h2>😁 Cadastro finalizado! 🤗</h2>
+                <h1>Agora é só aguardar seu emprego!</h1>
                 <hr /><br />
                 <p>Nome Completo:</p> {state.name}
                 <hr />
