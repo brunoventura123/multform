@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/multform/static/js/main.9bce1974.chunk.js",
+    "main.js.map": "/multform/static/js/main.9bce1974.chunk.js.map",
+    "runtime-main.js": "/multform/static/js/runtime-main.536b11e5.js",
+    "runtime-main.js.map": "/multform/static/js/runtime-main.536b11e5.js.map",
+    "static/js/2.d551ba85.chunk.js": "/multform/static/js/2.d551ba85.chunk.js",
+    "static/js/2.d551ba85.chunk.js.map": "/multform/static/js/2.d551ba85.chunk.js.map",
+    "index.html": "/multform/index.html",
+    "static/js/2.d551ba85.chunk.js.LICENSE.txt": "/multform/static/js/2.d551ba85.chunk.js.LICENSE.txt",
+    "static/media/book.42eae963.svg": "/multform/static/media/book.42eae963.svg",
+    "static/media/mail.42fe45d2.svg": "/multform/static/media/mail.42fe45d2.svg",
+    "static/media/profile.813d4fd3.svg": "/multform/static/media/profile.813d4fd3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.536b11e5.js",
+    "static/js/2.d551ba85.chunk.js",
+    "static/js/main.9bce1974.chunk.js"
+  ]
+}
