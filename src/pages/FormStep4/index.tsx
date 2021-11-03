@@ -1,22 +1,10 @@
 import { useEffect } from 'react'
-import { useHistory } from 'react-router'
 import { Theme } from '../../components/Theme'
 import { useForm, FormActions } from '../../contexts/FormContext'
 import * as C from './styles'
 
 export const FormStep4 = () => {
     const {state,dispatch} = useForm()
-    const history = useHistory()
-
-    const handleNextStep = () => {
-        if(state.name !== ''){
-            history.push('/step2')
-        } else {
-            alert('Preencha seu dados.')
-        }
-        
-    }
-    
 
     useEffect(()=>{
         dispatch({
