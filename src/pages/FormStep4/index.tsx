@@ -17,7 +17,7 @@ export const FormStep4 = () => {
                 payload: 4
             })
         }
-    },[])
+    },[state])
 
     return(
         <Theme>
