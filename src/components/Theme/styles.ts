@@ -4,6 +4,8 @@ export const Container = styled.div`
     background-color:#02044A;
     color:#FFF;
     min-height:100vh;
+
+    
 `
 
 export const Area = styled.div`
@@ -19,6 +21,11 @@ export const Area = styled.div`
 export const Steps = styled.div`
     flex:1;
     display:flex;
+
+    @media(max-width:770px){
+        display:flex;
+        flex-direction:column;
+    }
 
 `
 
