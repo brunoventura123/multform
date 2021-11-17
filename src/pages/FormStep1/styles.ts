@@ -43,4 +43,8 @@ export const Container = styled.div`
         cursor:pointer;
         margin-top:30px;
     }
+
+    @media(max-width:700px){
+        max-width:100%;
+    }
 `

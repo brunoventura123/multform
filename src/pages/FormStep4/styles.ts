@@ -6,10 +6,13 @@ export const Container = styled.div`
         font-size:13px;
         color:#b8b8b4;
     }
-    h2{
+    h2 {
         font-size:15px;
-        color:#fff;
+        span{
+        color:#FFF;
+        font-size:15px;
     }
+}
     h1{
         margin:0;
         padding:0;

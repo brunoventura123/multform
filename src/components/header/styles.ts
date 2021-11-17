@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding:25px 0;
+    margin: 0 30px;
     border-bottom:1px solid #16195c;
 
     h1{
@@ -12,5 +13,10 @@ export const Container = styled.div`
     p{
         font-size:14px;
         color:#b8b8d4;
+    }
+
+    @media(max-width:700px){
+        margin-right:0;
+        width:100%;
     }
 `
